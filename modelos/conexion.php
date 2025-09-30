@@ -7,7 +7,7 @@ class Conexion{
 		$options = array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8');
 		
 		$username = "asiridata";
-		$password = "123456789";
+		$password = "123456789Asiri";
 		$host     = "mysql-asiridata.alwaysdata.net";
 		$dbname   = "asiridata_usuarios";
 		
