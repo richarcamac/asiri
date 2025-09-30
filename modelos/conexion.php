@@ -6,10 +6,10 @@ class Conexion{
 
 		$options = array(PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8');
 		
-		$username = "if0_40048234";
-		$password = "jBfwuch5ndok83W";
-		$host     = "localhost";
-		$dbname   = "if0_40048234_asiri";
+		$username = "asiridata";
+		$password = "123456789";
+		$host     = "mysql-asiridata.alwaysdata.net";
+		$dbname   = "asiridata_usuarios";
 		
 		$link = new PDO("mysql:host={$host};dbname={$dbname};", $username, $password, $options);
 
